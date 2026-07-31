@@ -199,17 +199,7 @@ class _TrainerStudentsScreenState extends State<TrainerStudentsScreen> {
             ],
           ),
         ),
-        ElevatedButton.icon(
-          onPressed: () {},
-          style: ElevatedButton.styleFrom(
-            backgroundColor: primaryNavy,
-            foregroundColor: Colors.white,
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-          ),
-          icon: const Icon(Icons.add, size: 16),
-          label: const Text('حجز حصة', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12)),
-        ),
+     
       ],
     );
   }

@@ -10,7 +10,7 @@ import '../widgets/wallet_balance_card.dart';
 
 import '../widgets/transaction_card.dart';
 
-import '../widgets/financial_details_card.dart';
+// import '../widgets/financial_details_card.dart';
 
 import '../../widgets/school_app_bar.dart';
 import '../../school_reports/screens/school_reports_screen.dart';
@@ -140,10 +140,10 @@ class _EarningsWalletScreenState extends State<EarningsWalletScreen> {
                       itemCount: filteredTransactions.length,
                       itemBuilder: (context, index) => TransactionCard(transaction: filteredTransactions[index]),
                     ),
+                    // const SizedBox(height: 10),
+                    // _buildSectionTitle(title: 'التفاصيل المالية', trailing: ''),
                     const SizedBox(height: 10),
-                    _buildSectionTitle(title: 'التفاصيل المالية', trailing: ''),
-                    const SizedBox(height: 10),
-                    const FinancialDetailsCard(),
+                    // const FinancialDetailsCard(),
                     const SizedBox(height: 16),
                     ElevatedButton.icon(
                       onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SchoolReportsScreen())),
